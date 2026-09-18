@@ -1,0 +1,28 @@
+import { error } from 'node:console';
+import React from 'react';
+import BookCard from '../components/BookCard';
+
+const getBooks = async() => {
+    const res = await fetch("http://localhost:5000/books", {next: {revalidate: 20}});
+    if(!res.ok){
+        throw new error('Failed to fatch books')
+    }
+    return res.json()
+}
+
+const BooksPage = async() => {
+    const books = await getBooks()
+
+    return (
+        <div>
+            <h2>Books: {books.length}</h2>
+            <div className='grid grid-cols-3 gap-4'>
+                {
+                    books.map(book => <BookCard key={book.id} book={book}></BookCard>)
+                }
+            </div>
+        </div>
+    );
+};
+
+export default BooksPage;

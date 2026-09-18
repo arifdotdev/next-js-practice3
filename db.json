@@ -1,0 +1,122 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "Wireless Headphones",
+      "category": "Electronics",
+      "price": 45,
+      "rating": 4.5,
+      "stock": 25,
+      "image": "https://images.unsplash.com/photo-1505740420928-5e560c06d30e",
+      "description": "Enjoy clear and immersive sound with these comfortable wireless headphones. They feature long battery life, soft ear cushions, and a lightweight design, making them perfect for music, gaming, and everyday use."
+    },
+    {
+      "id": 2,
+      "name": "Smart Watch",
+      "category": "Electronics",
+      "price": 60,
+      "rating": 4.3,
+      "stock": 18,
+      "image": "https://images.unsplash.com/photo-1523275335684-37898b6baf30",
+      "description": "Stay connected and track your daily activities with this stylish smartwatch. It includes fitness tracking, heart rate monitoring, notifications, and multiple useful features for an active lifestyle."
+    },
+    {
+      "id": 3,
+      "name": "Running Shoes",
+      "category": "Fashion",
+      "price": 75,
+      "rating": 4.7,
+      "stock": 30,
+      "image": "https://images.unsplash.com/photo-1542291026-7eec264c27ff",
+      "description": "Lightweight and comfortable running shoes designed for everyday workouts and outdoor activities. The cushioned sole provides excellent support and comfort during running, walking, and training."
+    },
+    {
+      "id": 4,
+      "name": "Laptop Backpack",
+      "category": "Accessories",
+      "price": 35,
+      "rating": 4.4,
+      "stock": 40,
+      "image": "https://images.unsplash.com/photo-1553062407-98eeb64c6a62",
+      "description": "A durable and stylish laptop backpack with multiple compartments for organizing your laptop, books, accessories, and personal items. Perfect for students, professionals, and travelers."
+    },
+    {
+      "id": 5,
+      "name": "Mechanical Keyboard",
+      "category": "Computer",
+      "price": 85,
+      "rating": 4.8,
+      "stock": 15,
+      "image": "https://images.unsplash.com/photo-1587829741301-dc798b83add3",
+      "description": "Upgrade your typing and gaming experience with this responsive mechanical keyboard. It features durable mechanical switches, RGB lighting, and a comfortable layout designed for long working or gaming sessions."
+    }
+  ],
+  "books": [
+    {
+      "id": 1,
+      "title": "The Silent Forest",
+      "author": "Daniel Carter",
+      "category": "Mystery",
+      "price": 18.99,
+      "rating": 4.6,
+      "stock": 24,
+      "image": "https://images.unsplash.com/photo-1544947950-fa07a98d237f",
+      "description": "A gripping mystery novel about a young journalist who discovers a hidden secret deep inside a forgotten forest. As she investigates, she uncovers clues that connect the mystery to a decades-old disappearance."
+    },
+    {
+      "id": 2,
+      "title": "Journey Beyond the Stars",
+      "author": "Emily Watson",
+      "category": "Science Fiction",
+      "price": 22.5,
+      "rating": 4.8,
+      "stock": 15,
+      "image": "https://images.unsplash.com/photo-1532012197267-da84d127e765",
+      "description": "An exciting science-fiction adventure following a group of explorers who travel beyond the solar system and discover a mysterious civilization on a distant planet."
+    },
+    {
+      "id": 3,
+      "title": "The Art of Better Living",
+      "author": "Michael Brooks",
+      "category": "Self Development",
+      "price": 16.75,
+      "rating": 4.5,
+      "stock": 32,
+      "image": "https://images.unsplash.com/photo-1543002588-bfa74002ed7e",
+      "description": "A practical guide to building better habits, managing time, reducing stress, and creating a healthier and more productive daily lifestyle."
+    },
+    {
+      "id": 4,
+      "title": "Secrets of the Ocean",
+      "author": "Sophia Miller",
+      "category": "Nature",
+      "price": 25,
+      "rating": 4.7,
+      "stock": 20,
+      "image": "https://images.unsplash.com/photo-1512820790803-83ca734da794",
+      "description": "Explore the fascinating world beneath the ocean surface. This beautifully written book introduces readers to marine life, underwater ecosystems, and the mysteries of the deep sea."
+    },
+    {
+      "id": 5,
+      "title": "The Last Kingdom",
+      "author": "Robert Anderson",
+      "category": "Historical Fiction",
+      "price": 20.99,
+      "rating": 4.4,
+      "stock": 17,
+      "image": "https://images.unsplash.com/photo-1511108690759-009324a90311",
+      "description": "A historical adventure about a young warrior fighting to protect his kingdom during a time of war, betrayal, and political conflict."
+    },
+    {
+      "id": 6,
+      "title": "JavaScript for Beginners",
+      "author": "Alex Morgan",
+      "category": "Programming",
+      "price": 29.99,
+      "rating": 4.9,
+      "stock": 35,
+      "image": "https://images.unsplash.com/photo-1515879218367-8466d910aaa4",
+      "description": "A beginner-friendly introduction to JavaScript covering variables, functions, arrays, objects, loops, DOM manipulation, and modern JavaScript concepts through practical examples."
+    }
+  ]
+}
